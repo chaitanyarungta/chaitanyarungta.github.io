@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container d-flex align-items-center h-100"><!-- d-flex & align-items-center to get the outer container at center position, h-100 is used to set the height of container 100 % i.e. equal to web page height -->
+
+      <div class="row"> <!-- all the elements within this division will be arranged in rows occupying max of 12 grid spaces.-->
+        <header class=" text-center col-12 "> <!--this header contents will occupy one row, col-12 means whatever the size of window this header will occupy all 12 grid spaces, text-center is used so that the contents of the header row are placed at center of 12 grid spaces-->
+          <h1 class="text-uppercase"><strong>The biggest startup event of the year</strong></h1>  
+        </header>
+
+        <div class="buffer col-12"> <!--to create space between header and section tags--></div>
+
+        <section class=" text-center col-12 "><!--text-center is used so that the contents of the section row are placed at center of 12 grid spaces-->
+          <hr><!-- tag to create a horizontal line -->
+          <a href="https://mailchi.mp/7938dee4df5b/startup">
+            <button class="btn btn-primary btn-xl"> Find out more </button><!--here btn btn-primary are bootstrap css classes, while btn-xl is my ouwn defined css class. -->  
+          </a>
+          
+        </section>
+
+      </div>
+    </div>
+  </body>
+</html>

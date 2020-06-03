@@ -1,0 +1,41 @@
+body, 
+html 
+{
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed;
+  -webkit-background-size:cover; /* when this css propety was initially added, all browsers did not support it, therefore we had to use browser prefix before the css property to indicate that it is supported by particular, when a css property is supported by all, then we don't use prefix, there is a common name same for all browsers. */
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size: cover;
+}
+h1{
+	font-size: 3rem;
+	color: #e2dbdb;
+}
+.btn-xl{
+	padding: 1rem 2rem; /* 1 rem is for top-bottom while 2 rem is for sides*/
+}
+.btn{
+	font-weight: 700px;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+.btn-primary{
+	background-color: #f05f44;
+	border-color: #f05f44;
+}
+.btn-primary:hover{
+	background-color: #ee4b08;
+	border-color:  #ee4b08;
+	border-width: 4px;
+}
+hr{
+	border-color:  #f05f44;
+	border-width: 3px;
+	max-width: 65px;
+}
+.buffer{
+	height: 10rem;
+}
